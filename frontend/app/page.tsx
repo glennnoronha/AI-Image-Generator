@@ -92,7 +92,7 @@ export default function Home() {
                 <Checkbox 
                   id="safety-check" 
                   checked={safetyCheck}
-                  onCheckedChange={(value) => setSafetyCheck(value)}
+                  onCheckedChange={(value) => setSafetyCheck(!!value)}
                 />
                 <label 
                   htmlFor="safety-check" 
